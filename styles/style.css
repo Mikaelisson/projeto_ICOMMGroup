@@ -337,7 +337,7 @@ nav.menu-container ul li{
 /* main */
 
 main{
-    width: 184%;
+    width: 100%;
     
     padding-top: 250px;
 }
@@ -500,7 +500,7 @@ main{
 
 /* footer */
 footer{
-    width: 184%;
+    width: 100%;
 }
 
 .newsletter{
@@ -704,6 +704,10 @@ label span:nth-child(3){
         align-items: center;
         justify-content: center;
     }
+    
+    main, footer{
+        width: 184%;
+    }
 }
 
 
@@ -718,6 +722,7 @@ label span:nth-child(3){
     header{
         width: 100vw;
     }
+
 
     .message p{
         font-size: 0.8rem;
